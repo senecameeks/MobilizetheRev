@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.smeeks.mobilizetherev.Activity2"
+    android:id="@+id/backgroud"
+    android:background="#ff7fd5f0">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/categories"
+        android:rowCount="12"
+        android:columnCount="6"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:background="#ff7fd5f0">
+
+        <ImageButton
+            android:layout_width="114dp"
+            android:layout_height="95dp"
+            android:id="@+id/imageButton"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="#ff7fd5f0"
+            android:src="@drawable/animals3x" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="91dp"
+            android:id="@+id/imageButton2"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="#ff7fd5f0"
+            android:src="@drawable/education3x" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageButton3"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:background="#ff7fd5f0"
+            android:src="@drawable/health3x" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Animals"
+            android:id="@+id/textView2"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Education"
+            android:id="@+id/textView3"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginLeft="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Health"
+            android:id="@+id/textView4"
+            android:layout_row="2"
+            android:layout_column="5"
+            android:layout_marginLeft="35dp" />
+
+        <ImageButton
+            android:layout_width="109dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageButton4"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:background="#ff7fd5f0"
+            android:src="@drawable/environment3x" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="87dp"
+            android:id="@+id/imageButton5"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:background="#ff7fd5f0"
+            android:src="@drawable/civil_rights3x" />
+
+        <ImageButton
+            android:layout_width="109dp"
+            android:layout_height="91dp"
+            android:id="@+id/imageButton6"
+            android:layout_row="6"
+            android:layout_column="5"
+            android:background="#ff7fd5f0"
+            android:src="@drawable/women3x" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Environment"
+            android:id="@+id/textView5"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Civil Rights"
+            android:id="@+id/textView6"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Women"
+            android:id="@+id/textView7"
+            android:layout_row="8"
+            android:layout_column="5"
+            android:layout_marginLeft="30dp" />
+
+        <ImageButton
+            android:layout_width="114dp"
+            android:layout_height="95dp"
+            android:id="@+id/imageButton7"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:background="#ff7fd5f0"
+            android:src="@drawable/culture3x" />
+
+        <ImageButton
+            android:layout_width="109dp"
+            android:layout_height="91dp"
+            android:id="@+id/imageButton8"
+            android:layout_row="10"
+            android:layout_column="1"
+            android:background="#ff7fd5f0"
+            android:src="@drawable/poverty3x" />
+
+        <ImageButton
+            android:layout_width="109dp"
+            android:layout_height="91dp"
+            android:id="@+id/imageButton9"
+            android:layout_row="10"
+            android:layout_column="5"
+            android:background="#ff7fd5f0"
+            android:src="@drawable/lgbtq3x" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Culture"
+            android:id="@+id/textView8"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:layout_marginLeft="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Poverty"
+            android:id="@+id/textView9"
+            android:layout_row="11"
+            android:layout_column="1"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="lgbtqia+"
+            android:id="@+id/textView10"
+            android:layout_row="11"
+            android:layout_column="5"
+            android:layout_marginLeft="30dp" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Create a Cause"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Categories"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp" />
+</RelativeLayout>

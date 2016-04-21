@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.smeeks.mobilizetherev.profile"
+    android:background="#ff7fd5f0">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="News Feed"
+        android:id="@+id/newsfeed"
+        android:src="@drawable/newsfeed"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="gotoNewsFeed"/>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="Profile"
+        android:id="@+id/profile"
+        android:src="@drawable/profile"
+        android:layout_alignBottom="@+id/newsfeed"
+        android:layout_toLeftOf="@+id/newsfeed"
+        android:layout_toRightOf="@+id/newsfeed"
+        android:layout_toEndOf="@+id/newsfeed"
+        android:onClick="gotoProfile"/>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="Notifications"
+        android:id="@+id/notifs"
+        android:src="@drawable/notifs"
+        android:layout_alignBottom="@+id/profile"
+        android:layout_toLeftOf="@+id/profile"
+        android:layout_toRightOf="@+id/profile"
+        android:layout_toEndOf="@+id/profile"
+        android:onClick="gotoNotifs" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="12dp"
+        android:text="Add a Cause"
+        android:id="@+id/addACause"
+        android:src="@drawable/addacause"
+        android:layout_alignBottom="@+id/notifs"
+        android:layout_toLeftOf="@+id/notifs"
+        android:layout_toRightOf="@+id/notifs"
+        android:layout_toEndOf="@+id/notifs"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="gotoAddACause" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIO"
+        android:id="@+id/bio"
+        android:textSize="60dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilePic"
+        android:src="@drawable/profilepic"
+        android:layout_below="@+id/scrollView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editProfile"
+        android:src="@drawable/pencil"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/scrollView"
+        android:layout_toStartOf="@+id/scrollView"
+        android:onClick="editProfile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Causes"
+        android:id="@+id/causeTitle"
+        android:layout_below="@+id/bio"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="-bullet point list of causes"
+        android:id="@+id/causesList"
+        android:layout_below="@+id/causeTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Here"
+        android:id="@+id/name"
+        android:layout_below="@+id/profilePic"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>

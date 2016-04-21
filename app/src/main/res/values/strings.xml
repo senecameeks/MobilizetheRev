@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MobilizetheRev</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity2">Activity2</string>
+    <string name="title_activity_activity3">activity3</string>
+    <string name="title_activity_create_activity">create_activity</string>
+    <string name="title_activity_article_activity">article_activity</string>
+    <string name="title_activity_create_event">create_event</string>
+</resources>
